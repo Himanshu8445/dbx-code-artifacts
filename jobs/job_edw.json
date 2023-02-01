@@ -1,0 +1,11 @@
+{
+    "name": "job_edw",
+    "existing_cluster_id": "test",
+    "email_notifications": {},
+    "timeout_seconds": 0,
+    "notebook_task": {
+        "notebook_path": "/EDW/EDW_test_1.py",
+        "revision_timestamp": 0
+    },
+    "max_concurrent_runs": 1
+}
