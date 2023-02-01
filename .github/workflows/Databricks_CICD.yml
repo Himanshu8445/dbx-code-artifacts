@@ -135,7 +135,7 @@ jobs:
         name: 'deployment-scripts'
         path: ${{ github.workspace }}/deployment-scripts
     
-    # Deploy your Databricks Init Scripts to dbfs:/FileStore/init-scripts folder on DBFS
+    ## Deploy your Databricks Init Scripts to dbfs:/FileStore/init-scripts folder on DBFS
     - name:  Deploy your Databricks Init Scripts to dbfa:/init-scripts folder on DBFS
       run: |
         cd "$GITHUB_WORKSPACE/init-scripts"
