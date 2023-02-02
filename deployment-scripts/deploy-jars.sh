@@ -3,7 +3,7 @@
 accessToken=$1
 workspaceUrl=$2
 
-jarFilePath="dbfs:/FileStore/jars"
+jarFilePath="dbfs:/mnt/blobstorage"
 
 ######################################################################################
 # Create directory for Jar Files

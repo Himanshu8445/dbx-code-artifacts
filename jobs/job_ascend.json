@@ -1,6 +1,6 @@
 {
     "name": "job_ascend",
-    "existing_cluster_id": "test",
+    "existing_cluster_id": "multinodecluster",
     "email_notifications": {},
     "timeout_seconds": 0,
     "notebook_task": {
